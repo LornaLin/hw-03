@@ -1,0 +1,136 @@
+/* 
+p{width: 200px;}
+
+p.dotted {border-style: dotted} 點點虛線
+p.dashed {border-style: dashed} 虛線
+p.solid {border-style: solid}   實線
+p.double {border-style: double}
+p.groove {border-style: groove}
+p.ridge {border-style: ridge}
+p.inset {border-style: inset}
+p.outset {border-style: outset}
+
+div:nth-of-type(1){   等腰三角形
+    height: 0px;
+    width: 0px;
+    
+    border:50px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom:  100px solid blue;
+    border-top: 0px solid transparent;
+}
+
+div:nth-of-type(2){   直角三角形
+    height: 0px;
+    width: 0px;
+    background-color: lightblue;
+    border:50px solid green;
+    border-left: 50px solid transparent;
+    border-right: 50px solid blue;
+    border-bottom:  50px solid blue;
+    border-top: 50px solid transparent;
+}
+
+div:nth-of-type(3){   上課作業,四個三角形組成一個正方形
+    height: 0px;
+    width: 0px;
+    background-color: lightblue;
+    border:50px solid green;
+    border-left: 50px solid yellow;
+    border-right: 50px solid red;
+    border-bottom:  50px solid blue;
+    border-top: 50px solid green;
+}
+
+.rect{ 
+    width: 200px;
+    height: 50px;
+    border-top: 5px double green;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+    border-bottom: 5px dotted green;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-color: lightgreen;
+}
+
+.ee{
+    width: 150px;
+    height: 200px;
+    margin-left: 125px;
+    background-color: lightgreen;
+    border-bottom: 5px solid green;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+}
+ */
+body{
+    background: url(ba.jpg);
+    font-family: Microsoft JhengHei;
+}
+
+*{  box-sizing:  border-box;  }
+
+div{
+    display: inline-block;
+    text-align: center;
+}
+
+.play {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+       vertical-align: middle;
+}
+
+div.col{
+   display:inline-block;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin: 100px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: lightgray;
+ 
+    
+}
+
+.innerbox{
+    width: 100%;
+    height: 50%;
+    background: #16165c;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color:white;
+}
+
+.line1 {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.v2 {
+    font-size: 64px;
+    
+}
+
+.line21 {
+    vertical-align: top;
+}
+
+.line3 {
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    padding:5px;
+
+}
+
+.lim {
+    font-weight: bold;
+    color:#5c5c5c;
+}
