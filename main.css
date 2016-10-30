@@ -101,7 +101,7 @@ div.col{
 .innerbox{
     width: 100%;
     height: 50%;
-    background: #16165c;
+    background: #15154e;
     text-align: center;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
@@ -123,10 +123,9 @@ div.col{
 }
 
 .line3 {
-    border-style: solid;
-    border-color: white;
     border-radius: 5px;
     padding:5px;
+    border: 1px solid white;
 
 }
 
